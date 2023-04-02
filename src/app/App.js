@@ -22,7 +22,7 @@ function App() {
       }
       dispatch(fetchTodos(fecthOptions))
     }
-  }, [status])
+  }, [status, dispatch])
 
   return (
     <div className="App">
